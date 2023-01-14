@@ -1,0 +1,31 @@
+{
+  "name": "tauri-gh-releases-generator",
+  "version": "1.0.0",
+  "description": "Get github releases and return json response for tauri app updater",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G9000/tauri-gh-releases-generator.git"
+  },
+  "keywords": [
+    "tauri"
+  ],
+  "author": "G9000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/G9000/tauri-gh-releases-generator/issues"
+  },
+  "homepage": "https://github.com/G9000/tauri-gh-releases-generator#readme",
+  "devDependencies": {
+    "@types/events": "^3.0.0",
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "node-cache": "^5.1.2"
+  }
+}
