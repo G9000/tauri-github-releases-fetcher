@@ -1,0 +1,1 @@
+# tauri-gh-releases-generator
