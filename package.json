@@ -2,7 +2,8 @@
   "name": "tauri-gh-releases-generator",
   "version": "1.0.0",
   "description": "Get github releases and return json response for tauri app updater",
-  "main": "index.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"

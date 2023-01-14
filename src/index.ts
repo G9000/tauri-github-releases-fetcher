@@ -123,3 +123,5 @@ export default async function getGhReleases(
 
   return await getLatestGithubRelease(repo);
 }
+
+module.exports = getGhReleases;
