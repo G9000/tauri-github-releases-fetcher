@@ -1,32 +1,39 @@
 {
-  "name": "tauri-gh-releases-generator",
+  "name": "tauri-github-releases-fetcher",
   "version": "1.0.0",
   "description": "Get github releases and return json response for tauri app updater",
-  "main": "index.js",
-  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/G9000/tauri-gh-releases-generator.git"
+    "url": "git+https://github.com/G9000/tauri-github-releases-fetcher.git"
   },
   "keywords": [
     "tauri"
   ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "author": "G9000",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/G9000/tauri-gh-releases-generator/issues"
+    "url": "https://github.com/G9000/tauri-github-releases-fetcher.git/issues"
   },
-  "homepage": "https://github.com/G9000/tauri-gh-releases-generator#readme",
+  "homepage": "https://github.com/G9000/tauri-github-releases-fetcher.git#readme",
   "devDependencies": {
     "@types/events": "^3.0.0",
     "@types/node": "^18.11.18",
+    "@types/semver": "^7.3.13",
     "typescript": "^4.9.4"
   },
   "dependencies": {
-    "node-cache": "^5.1.2"
+    "axios": "^1.2.2",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^3.3.0",
+    "semver": "^7.3.8"
   }
 }
