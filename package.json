@@ -1,6 +1,6 @@
 {
   "name": "tauri-github-releases-fetcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get github releases and return json response for tauri app updater",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,7 +19,7 @@
     "/dist"
   ],
   "author": "G9000",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/G9000/tauri-github-releases-fetcher.git/issues"
   },
